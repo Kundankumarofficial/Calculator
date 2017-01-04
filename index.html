@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="jscalc.css" type="text/css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="jscalc.js" type="text/javascript">
+ </script>
+<title>Javascript Calculator</title>
+
+</head>
+<body>
+
+<div class="container">
+  
+  <div id="tv">
+    <div id="display"><p id="showNum"></p></div>
+  </div><!--end of tv-->
+  <div id="keyboard">
+    <div class="row numRow"><!--beg of clear button row-->
+      <div class="col-xs-3 numButton" id="clear"><p>C</p></div>
+      <div class="col-xs-3 numButton" id="clearEntry"><p>CE</p></div>
+      <div class="col-xs-3 numButton" id=""><p></p></div>
+      <div class="col-xs-3 operation"><p></p></div>
+    </div><!--end of top row-->
+    <div class="row numRow"><!--beg of top row-->
+      <div class="col-xs-3 numButton" id="seven"><p>7</p></div>
+      <div class="col-xs-3 numButton" id="eight"><p>8</p></div>
+      <div class="col-xs-3 numButton" id="nine"><p>9</p></div>
+      <div class="col-xs-3 operation" id="divide"><p>&divide</p></div>
+    </div><!--end of top row-->
+     <div class="row numRow"><!--beg of 2nd row-->
+      <div class="col-xs-3 numButton" id="four"><p>4</p></div>
+      <div class="col-xs-3 numButton" id="five"><p>5</p></div>
+      <div class="col-xs-3 numButton" id="six"><p>6</p></div>
+      <div class="col-xs-3 operation" id="multiply"><p>&times</p></div>
+    </div><!--end of 2nd row-->
+     <div class="row numRow"><!--top of 3rd row-->
+      <div class="col-xs-3 numButton" id="one"><p>1</p></div>
+      <div class="col-xs-3 numButton" id="two"><p>2</p></div>
+      <div class="col-xs-3 numButton" id="three"><p>3</p></div>
+      <div class="col-xs-3 operation" id="subtract"><p>-</p></div>
+    </div><!--end of  3rd row-->
+    <div class="row numRow"><!--top of 4th row-->
+      <div class="col-xs-3 numButton" id="zero"><p>0</p></div>
+      <div class="col-xs-3 numButton" id="period"><p>.</p></div>
+      <div class="col-xs-3 operation" id="equals"><p>=</p></div>
+      <div class="col-xs-3 operation" id="add"><p>+</p></div>
+    </div><!--end of  4th row-->
+  </div><!--end of keyboard-->
+  
+</div><!--end of container-->
+
+</body>
+</html>

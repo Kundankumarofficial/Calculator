@@ -1,0 +1,94 @@
+body {
+  background: #a0a4ac;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#tv {
+  position: relative;
+  width: 225px;
+  height: 150px;
+  margin: 100px auto 25px auto;
+  background: black;
+  border-radius: 50% / 10%;
+  color: green;
+  text-align: center;
+  text-indent: .1em;
+}
+#tv:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+#display {
+  position: relative;
+  top: 40px;
+  text-align: right;
+  width: 150px;
+}
+#keyboard {
+  position: relative;
+	border-bottom: 200px solid #e8d6a6;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+  border-radius: 20% 20% 5% 5%;
+	height: 0;
+	width: 250px;
+  margin: auto;
+}
+
+.numRow {
+  margin: auto;
+}
+.numButton {
+  border-radius: 40%;
+  border: 1px transparent white;
+  background-color: white;
+  width: .5em;
+  height: 1.4em;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 9px;
+  cursor: pointer; 
+  cursor: hand; }
+}
+
+.numButton p {
+  
+ 
+}
+
+.operation {
+  border-radius: 40%;
+  border: 1px transparent white;
+  background-color: darkgoldenrod;
+  width: .5em;
+  height: 1.4em;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 9px;
+  text-align: center;
+  cursor: pointer;
+  cursor: hand;
+}
+.operation p {
+  position: relative;
+  right: 5px;
+  bottom: 2px;
+}
+#clearEntry p{
+  position: relative;
+  right: 10px;
+}
+#clear p {
+  position: relative;
+  right: 5px;
+}
