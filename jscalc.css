@@ -1,5 +1,5 @@
 body {
-  background: #a0a4ac;
+  background: white;
 }
 
 .container {
@@ -91,4 +91,30 @@ body {
 #clear p {
   position: relative;
   right: 5px;
+}
+
+#robot {
+    position: relative;
+}
+
+#head {
+    height: 100px;
+    width: 80px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background: #85878d;
+    position: absolute;
+    left: 20px;
+    
+}
+
+#torso {
+    width: 120px;
+    height: 175px;
+    background-color: #85878d;
+    border-radius: 10%;
+    position: absolute;
+    top: 120px;
 }
