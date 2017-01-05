@@ -98,7 +98,7 @@ body {
 }
 
 #head {
-    height: 100px;
+    height: 90px;
     width: 80px;
     border-top-left-radius: 30%;
     border-top-right-radius: 30%;
@@ -106,15 +106,86 @@ body {
     border-bottom-right-radius: 10%;
     background: #85878d;
     position: absolute;
-    left: 20px;
+    left: 15px;
     
 }
 
+#eyeL {
+    position: absolute;
+    background: white;
+    height: 15px;
+    width: 15px;
+    left: 18px;
+    top: 20px;
+    text-align: center;
+    border-radius: 15%;
+}
+
+#eyeR {
+    position: absolute;
+    background: white;
+    height: 15px;
+    width: 15px;
+    top: 20px;
+    right: 18px;
+    text-align: center;
+    border-radius: 15%;
+}
+
+#mouth {
+    width: 38px;
+    height: 15px;
+    background: black;
+    border-radius: 20%;
+    position: absolute;
+    top: 60px;
+    left: 21px;
+}
+
 #torso {
-    width: 120px;
-    height: 175px;
+    width: 110px;
+    height: 150px;
     background-color: #85878d;
+    border-radius: 8%;
+    position: absolute;
+    top: 115px;
+}
+
+#panel {
+    background: #e8d6a6;
+    height: 60px;
+    width: 60px;
     border-radius: 10%;
     position: absolute;
-    top: 120px;
+    top: 30px;
+    left: 25px;
+}
+
+.panelBtn{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.panelRow {
+    width: 50px;
+    margin: auto;
+}
+
+.btnRed {
+    background-color: orangered;
+}
+
+.btnBlk {
+    background-color: #453e3e;
+}
+
+.btnWht {
+    background-color: white;
+}
+
+.btnDgrd {
+    background-color: darkgoldenrod;
 }
