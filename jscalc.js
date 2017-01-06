@@ -1,10 +1,17 @@
- $("document").ready(function(){
 
-var current = 0;
-  var numArray = [];
-  var firstNum = 0;
-  var result = 0;
-  var operation = "";
+$(document).ready(function () {
+    
+    $("#robot").addClass("move");
+    function showBubble() {
+        $('.bubble').toggle();
+    }
+    setTimeout(showBubble, 3000);
+     
+    var current = 0;
+    var numArray = [];
+    var firstNum = 0;
+    var result = 0;
+    var operation = "";
 
   
   function addDisplay(x) {
@@ -28,7 +35,7 @@ var current = 0;
   }
   
   function displayResult(r) {
-    $("#display").html("<p>"+r+"</p>");
+    $("#display").html("<p>"+r+"</p><p id='showNum'></p>");
     firstNum=r;
     current=r;
     numArray=[];
@@ -54,8 +61,14 @@ var current = 0;
         break;
             }
   }
+     
   $("#period").click(function(){
+    if (numArray.indexOf(".") == -1) {  
     addDisplay(".");
+    } else {
+        $(".bubble").text("Only one period per number, please!")
+    }
+        
   });
   $("#zero").click(function() {
     addDisplay(0);
