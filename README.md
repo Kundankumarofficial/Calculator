@@ -1,3 +1,3 @@
 # Calculator
 
-A Javascript calculator built as part of Free Code Camp curriculum. I am sure all the math bugs are not worked out. Probably will be a work in progress!!!
+An project done very early in my javascript learning. A simple on screen calculator with some fun animation added in just for learning experimentation. 
